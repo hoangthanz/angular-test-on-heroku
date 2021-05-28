@@ -13,8 +13,13 @@ const routes: Routes = [
     path: 'main-layout',
     component: MainLayoutComponent
   },
-  {path : 'register',
-  component : RegisterComponent
+  {
+    path: 'register',
+    component: RegisterComponent
+  },
+  {
+    path: '',
+    component: LoginComponent
   }
 ];
 
